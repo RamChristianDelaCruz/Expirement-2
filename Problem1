@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int package, hours;
+    double package, hours;
     char choice; 
     cout<< "Enter your internet package: ";cin >> choice;
     cout<<"Enter the number of hours used: ";cin >> hours;
