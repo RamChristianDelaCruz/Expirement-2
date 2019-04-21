@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double gallons,amount;
+    
+    cout<<"Enter gallons used: "; cin >> gallons;
+    cout<<"Enter unpaid amount: "; cin>> amount;
+    
+    if (amount <=0)
+    cout<< 35+(1.10*gallons);
+    else if(amount > 0)
+    cout<< 55+(1.10*gallons);
+
+    return 0;
+}
