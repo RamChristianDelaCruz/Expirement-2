@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int package, hours;
+    char choice; 
+    cout<< "Enter your internet package: ";cin >> choice;
+    cout<<"Enter the number of hours used: ";cin >> hours;
+    
+    switch (choice){
+        case 'a': package = 995; break;
+        case 'b': package = 1495; break;
+        case 'c': package = 1995; break;
+        default: cout<< "Enter letters a,b, or c."<<endl;
+    }
+    
+    if (package == 995 && hours <= 10)
+    cout<< "The total amout due is: "<< package;
+    else if (package == 995 && hours >10)
+    cout<< package+(hours-10)*20;
+    
+    if (package == 1495 && hours <= 20)
+    cout<< "The total amout due is: "<<package;
+    else if (package == 1495 && hours > 20)
+    cout<< package+(hours-20)*10;
+    
+    if (package == 1995)
+    cout << "The total amout due is: "<<package;
+        
+    
+
+
+
+    return 0;
+}
