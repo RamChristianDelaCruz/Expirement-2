@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double a,b,c;
+    
+    cout<<"Enter first number: ";cin>>a;
+    cout<<"Enter second number: ";cin>>b;
+    cout<<"Enter third number: ";cin>>c;
+    
+    cout<<"First number: "<<a<<endl;
+    cout<<"Second number: "<<b<<endl;
+    cout<<"Third number: "<<c<<endl;
+    
+    if(a>b && a>c)
+    cout<<"The largest number is "<<a;
+    else if (a<b && b>c)
+    cout<<"The largest number is "<<b;
+    else if (c>a && c>b)
+    cout<<"The largest number is "<<c;
+    
+    
+
+    return 0;
+}
