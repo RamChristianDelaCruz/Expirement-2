@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int x,sum;
+	cout << "Enter a number: "; cin >> x;
+	
+	for(int y = 1; y <= x; y++){
+		sum += y;
+		
+
+	}
+		cout<< sum;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
