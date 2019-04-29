@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+cout<<"Enter a key to start the program "<<endl;
+_getch();
+int a=0, b=1, c;
+
+for (c =0; c<= 10946; c++){
+
+
+cout<< a <<",";
+int c = a+b;
+
+a = b;
+b = c;
+
+if( c == 10946){cout <<c;
+break;
+}
+
+}
+
+
+
+
+_getch();
+return 0;
+}
