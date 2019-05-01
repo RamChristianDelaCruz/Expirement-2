@@ -13,8 +13,8 @@ for (c =0; c<= 10946; c++){
 
 
 cout<< a <<",";
+_getch();
 int c = a+b;
-
 a = b;
 b = c;
 
