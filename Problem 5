@@ -22,6 +22,7 @@ if (number == 25) {continue;}
 if (number == 27) {continue;}
 if (number == 29) {continue;}
 if (number == 30) {cout<<number; break;}
+_getch();
 cout<< number<<",";
 
 }
