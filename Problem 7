@@ -3,25 +3,24 @@ using namespace std;
 int main ()
 {
 	int x,sum;
-	cout << "Enter a number: "; cin >> x;
 	
-	for(int y = 1; y <= x; y++){
+	
+	bool condition = false;
+	
+	while (!condition){
+		cout << "Enter a number: "; cin >>x;
+		for(int y = 1; y <= x; y++){
 		sum += y;
-		
+	
 
 	}
-		cout<< sum;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		if (x <= 0)
+		condition = true;
+		else if (x>0)
+	cout<< sum<<endl;
+	sum = 0;
+	}
 	
 	
 	return 0;
